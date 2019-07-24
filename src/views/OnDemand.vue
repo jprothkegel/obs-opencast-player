@@ -23,7 +23,6 @@
 
 <script>
 import OnDemandVideoCard from '../components/OnDemandVideoCard'
-import { Promise } from 'q';
 
 export default {
     data(){

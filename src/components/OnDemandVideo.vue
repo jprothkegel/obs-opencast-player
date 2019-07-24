@@ -122,7 +122,7 @@
 </template>
 
 <script>
-import utfsm from '../assets/utfsm2.jpg'
+import utfsm from '../assets/logo-usm-electronica.jpg'
 import videojs from 'video.js'
 import { clearInterval, setInterval} from 'timers'
 window.videojs = videojs

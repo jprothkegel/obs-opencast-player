@@ -5,7 +5,7 @@
         <v-avatar>
           <img :src="utfsm">
         </v-avatar>
-        <span>UTFSM</span>
+        <span>ELO</span>
         <span class="font-weight-light">PLAYER</span>
       </v-toolbar-title>
       <v-spacer></v-spacer>
@@ -45,7 +45,7 @@ export default {
   },
   data () {
     return {
-      utfsm: require('./assets/usmlogo.png')
+      utfsm: require('./assets/logoelo.png')
     }
   },
   methods: {

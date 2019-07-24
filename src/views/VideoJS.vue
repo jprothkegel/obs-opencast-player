@@ -21,7 +21,7 @@
 </template>
 
 <script>
-import utfsm from '../assets/utfsm2.jpg'
+import utfsm from '../assets/logo-usm-electronica.jpg'
 import videojs from 'video.js'
 window.videojs = videojs
 require('videojs-contrib-hls/dist/videojs-contrib-hls.js')
