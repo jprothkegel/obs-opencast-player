@@ -4,7 +4,7 @@ import axios from 'axios'
 
 Vue.use(Vuex)
 
-const backUrl = 'http://200.1.17.128:3000/'
+const backUrl = 'http://localhost:3000/'
 
 export default new Vuex.Store({
   state: {

@@ -1,32 +1,16 @@
 <template>
   <v-app>
     <v-toolbar app>
-      <v-toolbar-title class="headline text-uppercase">
-        <v-avatar>
-          <img :src="utfsm">
-        </v-avatar>
-        <span>ELO</span>
-        <span class="font-weight-light">PLAYER</span>
-      </v-toolbar-title>
+      <router-link to="/portal" class="router-link">
+        <v-toolbar-title class="headline text-uppercase">
+          <v-avatar>
+            <img :src="utfsm">
+          </v-avatar>
+          <span>ELO</span>
+          <span class="font-weight-light">PLAYER</span>
+        </v-toolbar-title>
+      </router-link>
       <v-spacer></v-spacer>
-
-      <v-tooltip bottom>
-        <template v-slot:activator=" { on } ">
-          <v-btn icon flat v-on="on" @click="goLive">
-            <v-icon>live_tv</v-icon>
-          </v-btn>
-        </template>
-        <span>Transmisión en vivo</span>
-      </v-tooltip>
-
-      <v-tooltip bottom>
-        <template v-slot:activator=" { on } ">
-          <v-btn icon flat v-on="on" @click="goOD">
-            <v-icon>videocam</v-icon>
-          </v-btn>
-        </template>
-        <span>On Demand</span>
-      </v-tooltip>
     </v-toolbar>
 
     <v-content>
@@ -58,3 +42,9 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+.router-link {
+  text-decoration: none;
+}
+</style>

@@ -64,7 +64,7 @@ export default {
         .then(resp => {
             this.keyPath = resp.data.streamKey.key
             this.videoMetadata = resp.data.video.metadata.fields
-            this.playerOptions.sources[0].src = "http://192.168.0.82/live/" + this.keyPath + "/index.m3u8"
+            this.playerOptions.sources[0].src = "http://192.168.1.171/live/" + this.keyPath + "/index.m3u8"
             console.log("keypathc ", this.keyPath)
             console.log("metadata ",this.videoMetadata)
             console.log(this.playerOptions.sources[0].src)
